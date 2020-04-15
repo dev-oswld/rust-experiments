@@ -1,8 +1,8 @@
-# Rust just for fun!
+# Rust just for fun! :crab:
 
 See documentation [here](https://doc.rust-lang.org/book/title-page.html).
 
-## Notes
+## :pushpin: Notes 
 
 What version do i use?
 ```console
@@ -17,5 +17,8 @@ your-file-name.exe
 
 Using Cargo for a project
 ```console
+cargo new project-name
+cd project-name
+cargo build
 cargo run
 ```
