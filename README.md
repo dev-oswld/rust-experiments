@@ -6,10 +6,10 @@ See documentation [here](https://doc.rust-lang.org/book/title-page.html).
 
 What version do i use?
 ```console
-rust --version && cargo --version
+rustc --version && cargo --version
 ```
 
-Compile with the console (old school):
+Compile with the console (old school)
 ```console
 rustc your-file-name.rs
 your-file-name.exe
