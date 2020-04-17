@@ -1,4 +1,6 @@
 # Rust just for fun! :crab:
+![GitHub](https://img.shields.io/github/license/dev-oswld/rust-experiments?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/dev-oswld/rust-experiments?color=orange&style=for-the-badge)
 
 See documentation [here](https://doc.rust-lang.org/book/title-page.html).
 
