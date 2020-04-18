@@ -19,11 +19,38 @@ fn main() {
     println!("An icon is: {}", icon);
     println!("Is Rust Programming Fun? {}", boolean);
 
-    //Exits tuples, and arrays!
+    //Exists tuples, and arrays!
     
-    another_function(2020);
+    println!("\nFunctions and returns");
+    another_function(18);
+    let phrase = return_function("");
+    println!("The string contains: {}", phrase);
+
+    println!("\nControl flow");
+    let condition = true;
+    let number = if condition {
+        5 //Here
+    } else {
+        6
+    };
+
+    println!("The value of number is: {}, if/else conditio", number);
+
+    let mut another_number = 3;
+    while another_number != 0 {
+        println!("{}!", another_number);
+        another_number -= 1;
+    }
+    println!("LIFTOFF!!!, while loop");
+
+    //Exists loop, while, and for!
+    //While VS for, the range is important
 }
 
 fn another_function(day: i32){
-    println!("\nAnother function, today is: {}", day);
+    println!("Another function, today is April {} ", day);
+}
+
+fn return_function(_x: &str) -> &str{
+    return "Yep Yep";
 }
